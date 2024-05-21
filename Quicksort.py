@@ -16,7 +16,7 @@ def quicksort(arr, level=0):
         return sorted_left + middle + sorted_right
 
 # 需排序數字列表
-numbers = [33, 67, 8, 13, 54, 119, 64, 3, 84, 25, 41]
+numbers = [33, 67, 8, 13, 54, 119, 3, 84, 25, 41]
 
 # 排序並印出過程
 sorted_numbers = quicksort(numbers)
